@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Selamat Datang di StreetRacer.NET</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', 'Linux Libertine', 'Georgia', serif;
+            line-height: 1.65;
+            color: #202122;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        #searchInput {
+            padding-left: 12px;
+            border: 1px solid #a2a9b1;
+            border-radius: 2px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .wiki-link {
+            color: #0645AD;
+        }
+        .wiki-link:hover {
+            text-decoration: underline;
+        }
+        .featured-box, .collaboration-box {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        .featured-box img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsif Sidebar */
+        @media (max-width: 768px) {
+            aside {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .flex {
+                flex-direction: column;
+            }
+            main {
+                width: 100%;
+            }
+            #searchInput {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .featured-box .flex {
+                flex-direction: column;
+            }
+            .featured-box img {
+                margin-bottom: 1em;
+            }
+        }
+        @media (min-width: 769px) {
+            aside {
+                width: 200px;
+            }
+            main {
+                flex: 1;
+            }
+            .featured-box .flex {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-300">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
+            <!-- Logo -->
+            <div class="flex items-center mb-2 sm:mb-0">
+                <img src="https://cdn.discordapp.com/attachments/1332171391687987203/1332172034188382219/20250123_175714.jpg?ex=684ae123&is=68498fa3&hm=ed2cfe97f3d30459b1428b49dc277ace8f5943b80860dc4e123d46b2f3362454&" alt="Wiki Logo" class="h-10">
+                <div class="ml-2">
+                    <h1 class="text-lg font-semibold">StreetRacer.NET</h1>
+                    <p class="text-sm text-gray-600">Invicible Midnight Racer</p>
+                </div>
+            </div>
+            <!-- Search Bar -->
+            <div class="w-full sm:w-1/3 mb-2 sm:mb-0">
+                <input id="searchInput" type="text" placeholder="Cari" class="w-full p-2 text-sm">
+            </div>
+            <!-- Social Links -->
+            <div class="text-sm w-full sm:w-auto">
+                <a href="https://www.tiktok.com/@flxdrmaa?is_from_webapp=1&sender_device=pc" class="wiki-link mr-2">Ikuti Invicible Midnight Racer di TikTok</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-4 flex flex-wrap">
+        <!-- Sidebar -->
+        <aside class="w-48 pr-4">
+            <nav class="bg-white p-3 border border-gray-300 text-sm">
+                <ul class="space-y-1">
+                    <li><a href="#" class="">MAIN</a></li>
+                    <li><a href="Index.html" class="wiki-link">Prologue</a></li>
+                    <hr class="my-2 border-gray-300">
+                    <li><a href="chapter 1.html" class="wiki-link">Chapter 1</a></li>
+                    <li><a href="chapter 2.html" class="wiki-link">Chapter 2</a></li>
+                    <li><a href="chapter 3.html" class="wiki-link">Chapter 3</a></li>
+                    <li><a href="screens roleplay.html" class="wiki-link">Screens Roleplay</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="flex-1 bg-white p-6 border border-gray-300">
+            <h1 class="text-2xl font-bold mb-2">Selamat Datang di StreetRacer.NET</h1>
+            <p class="text-sm mb-4">Selamat datang di StreetRacer.NET, sebuah website yang mengunggah konten tentang dunia balap jalanan, khususnya Club yang berjulukan <em>Invicible Midnight Racer</em>. Temukan informasi, dan pembaruan menarik di sini.</p>
+
+            <!-- Featured Article: Prologue -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2">PRLOGUE</h1>
+                <div class="block">
+                    <div>
+                        <h3 class="text-base">Invincible Midnight Racer” is a car club originating from the villages called Palomino. It started with three friends named Guerro Geronimo, Bastiano Delucca and Jose William who had a hobby of automotive. Guerro, Bestiano and Jose know a lot about the world of illegal racing and also modifying car components. The three of them also run a workshop business and sell illegal spare parts. Their love for the automotive world and illegal activities such as illegal racing, modification of parts and engines that are prohibited by the government, made these three friends decide to establish a club called Invincible Midnight Racer.</h3>
+                    </div>
+                    <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1330827641372147712/IMR_HR_3.png?ex=684b4313&is=6849f193&hm=5280ca6786bcba7fbdaadc57a61d62f4e6fb7d1840725719019a35abe11e6ee2&" alt="Prologue Image" class="mb-2" height="700" width="780">
+                </div>
+            </div>
+
+            <!-- Featured Article: Guerro Geronimo -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2">Guerro Geronimo</h1>
+                <div class="flex items-start flex-wrap">
+                    <div class="w-full md:w-1/2 pr-4">
+                        <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1330827741267759198/Gerry.png?ex=684b432b&is=6849f1ab&hm=607cbec6e3a6ad52982901e123672b78cf1a7e4df03d472a59e221a81f1305ad&" alt="Guerro Geronimo" class="mb-2" height="200" width="280">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-base">Guerro "Gerry" Geronimo is the President of the Invincible Midnight Racer club who is in control of all activities in this club. Guerro is an expert in overhauling, replacing and improving engine performance, and doing drag races is his specialty.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Article: Bastiano Delucca -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2">Bastiano Delucca</h1>
+                <div class="flex items-start flex-wrap">
+                    <div class="w-full md:w-1/2 pr-4">
+                        <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1330827882175402014/Bastiano.png?ex=684b434c&is=6849f1cc&hm=98d57bfd49a4eb5df3993b1e741ba39547825f86b5b06aac8814fcf4faba58d5&" alt="Bastiano Delucca" class="mb-2" height="200" width="280">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-base">Bastiano "Smokey" Delucca is the Vice President of the Invincible Midnight Racer club who helped Guerro Gerry Geronimo in developing this car club. Bastiano is an expert at drifting, winding tracks are not a problem for him.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Article: Jose William -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2">Jose William</h1>
+                <div class="flex items-start flex-wrap">
+                    <div class="w-full md:w-1/2 pr-4">
+                        <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1330827961120850002/Jose.png?ex=684b435f&is=6849f1df&hm=334969653a961c29638f4a9c20d8998097db2d9e5c05c7e2541966ed0d18be50&" alt="Jose William" class="mb-2" height="200" width="280">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-base">Jose "Kaze" William is the Treasurer of the Invincible Midnight Racer club who helps Guerro Gerry Geronimo and Bastiano Lucy Delucca in managing this club. Jose is an expert in long tracks that have 1 lap, or what is called a Sprint. His expertise is supported by a car made by Guerro.</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-4 py-4 border-t border-gray-300">
+        <div class="container mx-auto px-4 text-center text-sm text-gray-600">
+            <p>StreetRacer.Net didukung oleh komunitas. <a href="#" class="">Copyright 2025</a>.</p>
+            <p class="mt-2">
+                <a href="#" class="wiki-link">Tentang StreetRacer.NET</a> | 
+                <a href="#" class="wiki-link">Kebijakan Privasi</a> | 
+                <a href="#" class="wiki-link">Syarat Penggunaan</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

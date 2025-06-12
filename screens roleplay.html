@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Selamat Datang di StreetRacer.NET</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', 'Linux Libertine', 'Georgia', serif;
+            line-height: 1.65;
+            color: #202122;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        #searchInput {
+            padding-left: 12px;
+            border: 1px solid #a2a9b1;
+            border-radius: 2px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .wiki-link {
+            color: #0645AD;
+        }
+        .wiki-link:hover {
+            text-decoration: underline;
+        }
+        .featured-box, .collaboration-box {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        .featured-box img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsif Sidebar */
+        @media (max-width: 768px) {
+            aside {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .flex {
+                flex-direction: column;
+            }
+            main {
+                width: 100%;
+            }
+            #searchInput {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .featured-box .flex {
+                flex-direction: column;
+            }
+            .featured-box img {
+                margin-bottom: 1em;
+            }
+        }
+        @media (min-width: 769px) {
+            aside {
+                width: 200px;
+            }
+            main {
+                flex: 1;
+            }
+            .featured-box .flex {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-300">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
+            <!-- Logo -->
+            <div class="flex items-center mb-2 sm:mb-0">
+                <img src="https://cdn.discordapp.com/attachments/1332171391687987203/1332172034188382219/20250123_175714.jpg?ex=684ae123&is=68498fa3&hm=ed2cfe97f3d30459b1428b49dc277ace8f5943b80860dc4e123d46b2f3362454&" alt="Wiki Logo" class="h-10">
+                <div class="ml-2">
+                    <h1 class="text-lg font-semibold">StreetRacer.NET</h1>
+                    <p class="text-sm text-gray-600">Invicible Midnight Racer</p>
+                </div>
+            </div>
+            <!-- Search Bar -->
+            <div class="w-full sm:w-1/3 mb-2 sm:mb-0">
+                <input id="searchInput" type="text" placeholder="Cari" class="w-full p-2 text-sm">
+            </div>
+            <!-- Social Links -->
+            <div class="text-sm w-full sm:w-auto">
+                <a href="https://www.tiktok.com/@flxdrmaa?is_from_webapp=1&sender_device=pc" class="wiki-link mr-2">Ikuti Invicible Midnight Racer di TikTok</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-4 flex flex-wrap">
+        <!-- Sidebar -->
+        <aside class="w-48 pr-4">
+            <nav class="bg-white p-3 border border-gray-300 text-sm">
+                <ul class="space-y-1">
+                    <li><a href="#" class="">MAIN</a></li>
+                    <li><a href="Index.html" class="wiki-link">Prologue</a></li>
+                    <hr class="my-2 border-gray-300">
+                    <li><a href="chapter 1.html" class="wiki-link">Chapter 1</a></li>
+                    <li><a href="chapter 2.html" class="wiki-link">Chapter 2</a></li>
+                    <li><a href="chapter 3.html" class="wiki-link">Chapter 3</a></li>
+                    <li><a href="screens roleplay.html" class="wiki-link">Screens Roleplay</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="flex-1 bg-white p-6 border border-gray-300">
+            <!-- Featured Article: Guerro Geronimo -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2"><em>Back to the circuit</em></h1>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1377845074150297681/IMR1.png?ex=684aec78&is=68499af8&hm=e528f1dc6213a6047564ad1e3af77ad352b81a19b0df5a792af346d271f39faa&" alt="Guerro Geronimo" height="700" width="780">
+                <br>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1377845092282535957/IMR2.png?ex=684aec7d&is=68499afd&hm=f98dae1c7007ec862c124652d85339536cd42c1f43b51853e3f2f29363a574b7&" alt="Guerro Geronimo" height="700" width="780">
+                <br>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1377845112276779098/IMR3.png?ex=684aec81&is=68499b01&hm=8a3b2f07089bcab17b43119b7dd67dbbaf28a1a20b3ebe50b53c96514942dd98&" alt="Guerro Geronimo" height="700" width="780">
+           
+            </div>
+
+            <!-- Featured Article: Bastiano Delucca -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2"><em>Nothings</em></h1>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1378724525566591138/IMR4.png?ex=684b7c86&is=684a2b06&hm=7dc7fded1336092ed08857b7d47e0c6bf85e2a9e7d56e39ba73751ed282c0620&" alt="Guerro Geronimo" height="700" width="780">
+                <br>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1378724565202505799/IMR5.png?ex=684b7c8f&is=684a2b0f&hm=df275a2b3afd0b442f8921d502c6e761d33c63a75f796bcfe3ceb6c85418dc1b&" alt="Guerro Geronimo" height="700" width="780">
+                <br>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1378724606369730670/IMR6.png?ex=684b7c99&is=684a2b19&hm=0c0818fdba9e4a7ef5174809b06eb67570dd7ae559c519be8bac87d3303e67c7&" alt="Guerro Geronimo" height="700" width="780">
+                <br>
+                <img src="https://cdn.discordapp.com/attachments/1332775186419814442/1378724634974752849/IMR7.png?ex=684b7ca0&is=684a2b20&hm=bc19f22d57dedccd77b1b09bc1b711dbc74a6ab54cf55d90f353e5a93a37aa26&" alt="Guerro Geronimo" height="700" width="780">
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-4 py-4 border-t border-gray-300">
+        <div class="container mx-auto px-4 text-center text-sm text-gray-600">
+            <p>StreetRacer.Net didukung oleh komunitas. <a href="#" class="">Copyright 2025</a>.</p>
+            <p class="mt-2">
+                <a href="#" class="wiki-link">Tentang StreetRacer.NET</a> | 
+                <a href="#" class="wiki-link">Kebijakan Privasi</a> | 
+                <a href="#" class="wiki-link">Syarat Penggunaan</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

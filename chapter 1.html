@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Selamat Datang di StreetRacer.NET</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', 'Linux Libertine', 'Georgia', serif;
+            line-height: 1.65;
+            color: #202122;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        #searchInput {
+            padding-left: 12px;
+            border: 1px solid #a2a9b1;
+            border-radius: 2px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .wiki-link {
+            color: #0645AD;
+        }
+        .wiki-link:hover {
+            text-decoration: underline;
+        }
+        .featured-box, .collaboration-box {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        .featured-box img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsif Sidebar */
+        @media (max-width: 768px) {
+            aside {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .flex {
+                flex-direction: column;
+            }
+            main {
+                width: 100%;
+            }
+            #searchInput {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .featured-box .flex {
+                flex-direction: column;
+            }
+            .featured-box img {
+                margin-bottom: 1em;
+            }
+        }
+        @media (min-width: 769px) {
+            aside {
+                width: 200px;
+            }
+            main {
+                flex: 1;
+            }
+            .featured-box .flex {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-300">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
+            <!-- Logo -->
+            <div class="flex items-center mb-2 sm:mb-0">
+                <img src="https://cdn.discordapp.com/attachments/1332171391687987203/1332172034188382219/20250123_175714.jpg?ex=684ae123&is=68498fa3&hm=ed2cfe97f3d30459b1428b49dc277ace8f5943b80860dc4e123d46b2f3362454&" alt="Wiki Logo" class="h-10">
+                <div class="ml-2">
+                    <h1 class="text-lg font-semibold">StreetRacer.NET</h1>
+                    <p class="text-sm text-gray-600">Invicible Midnight Racer</p>
+                </div>
+            </div>
+            <!-- Search Bar -->
+            <div class="w-full sm:w-1/3 mb-2 sm:mb-0">
+                <input id="searchInput" type="text" placeholder="Cari" class="w-full p-2 text-sm">
+            </div>
+            <!-- Social Links -->
+            <div class="text-sm w-full sm:w-auto">
+                <a href="https://www.tiktok.com/@flxdrmaa?is_from_webapp=1&sender_device=pc" class="wiki-link mr-2">Ikuti Invicible Midnight Racer di TikTok</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-4 flex flex-wrap">
+        <!-- Sidebar -->
+        <aside class="w-48 pr-4">
+            <nav class="bg-white p-3 border border-gray-300 text-sm">
+                <ul class="space-y-1">
+                    <li><a href="#" class="">MAIN</a></li>
+                    <li><a href="Index.html" class="wiki-link">Prologue</a></li>
+                    <hr class="my-2 border-gray-300">
+                    <li><a href="chapter 1.html" class="wiki-link">Chapter 1</a></li>
+                    <li><a href="chapter 2.html" class="wiki-link">Chapter 2</a></li>
+                    <li><a href="chapter 3.html" class="wiki-link">Chapter 3</a></li>
+                    <li><a href="screens roleplay.html" class="wiki-link">Screens Roleplay</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="flex-1 bg-white p-6 border border-gray-300">
+            <h1 class="text-2xl font-bold mb-2">Selamat Datang di StreetRacer.NET</h1>
+            <p class="text-sm mb-4">Selamat datang di StreetRacer.NET, sebuah website yang mengunggah konten tentang dunia balap jalanan, khususnya Club yang berjulukan <em>Invicible Midnight Racer</em>. Temukan informasi, dan pembaruan menarik di sini.</p>
+
+            <!-- Featured Article: Prologue -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2">Chapter 1 : Born To Race</h1>
+                <div class="block">
+                    <div>
+                      <h3 class="text-base">Malam hari di sebuah daerah bernama Bone Country, Guerro Geronimo, Bastiano Delucca dan Jose William melakukan balapan liar di sebuah jalan menuju El Quebrados. Seperti biasa mereka bertiga melakukan aksinya pada tengah malam. Guerro dengan Supra A80, Bastiano menggunakan Nissan Silvia S15 dan Jose dengan Skyline GT-R32 nya, sayangnya aksi mereka di ketahui oleh polisi setelah mereka melewati daerah Bayside, mereka pun terlibat kerjar-kerjaran dengan polisi hingga akhirnya mereka berpisah di persimpangan San Fierro menuju Angelpine.</h3>
+                      <br>
+                      <h3 class="text-base">Setelah perpisahan mereka bertiga, Guerro melarikan diri ke Las Venturas, Bastiano menuju Los Santos dan Jose yang masih belum di ketahui apakah ia berhasil melarikan diri atau tidak. 1 bulan setelah kejadian tersebut, hingga pada akhirnya Guerro menghubungi Bastiano pada malam hari untuk menemuinya di rumah Guerro yang berada di Palomino. Guerro dan Bastiano bertemu kembali setelah 1 bulan mereka berpisah.</h3>
+                    <br>
+                      <h3 class="text-base">Jose yang masih belum ada kabar setelah kejadian satu bulan yang lalu, membuat Guerro dan Bastiano khawatir. Hingga pada akhirnya Guerro dan Bastiano mengadakan balap liar kembali di daerah yang bernama Roca Escalante. Disana mereka berdua bertemu dengan Simeon Charly yang juga akan ikut dalam balapan yang di buat oleh Guerro dan Bastiano.</h3>
+                     <br>
+                      <h3 class="text-base">Setelah mereka melakukan aksinya di Roca, Bastiano tertarik dengan Simeon karna skill mengendarainya yang luar biasa, tidak seperti kebanyakan pembalap lainnya. Akhirnya Bastiano mengajak Simeon ke tempat Guerro. Disana Bastiano dan Guerro menceritakan mengenai Jose yang tidak ada kabar sama sekali setelah terlibat kejar-kejaran. Namun sangat tidak terduga, setelah Simeon mendengarkan cerita dari Guerro, ternyata Simeon telah melihat seseorang yang memakai GT-R32 di jalan Los Santos yang mengarah ke Ocean Docks, dia melihat bahwa orang sedang itu di kejar oleh polisi pada saat itu.</h3>
+                    <br>
+                      <h3 class="text-base">Jose William ternyata berhasil kabur dari kejaran polisi setelah ia berada di Ocean Docks dan meninggalkan mobilnya disana. Jose berhasil kabur karna ia bertemu dengan seseorang yang bekerja sebagai penjaga di dermaga Ocean Docks. Orang itu bernama Kai Aarons. Jose menawarkan sejumlah uang agar tidak melaporkan mobilnya itu kepada polisi dan meminta Kai untuk membawa Jose pergi keluar dari Ocean Docks.</h3>
+                    <br>
+                      <h3 class="text-base">Setelah kejadian Jose yang berhasil kabur bersama Kai Aarons. Keesokan harinya sampai menjelang sore. Guerro, Bastiano dan Simeon menuju ke Ocean Docks yang masih mencari keberadaan Jose sampai mereka menemukan sebuah gudang yang sedikit terbuka. Dikarenakan curiga, mereka akhirnya memasuki gudang itu dan disanalah mereka menemukan sebuah mobil milik Jose. Didalam mobil itu mereka juga menemukan sebuah kertas yang berisikan alamat rumah yang berada di Fort Carson.</h3>
+                    <br>
+                      <h3 class="text-base">Setalah mereka menemukan kertas tersebut, mereka bertiga langsung menuju ke alamat itu. Disana mereka berada di depan pintu rusun lantai 2, mereka mengetuk pintu itu hingga keluar lah Kai Aarons.    
+Setelah itu mereka menanyakan keberadaan Jose hingga akhirnya Jose juga ikut keluar. Dan pada akhirnya Guerro, Bastiano dan Jose bertemu kembali.</h3>
+                    
+                    </div>
+                    <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1331928906978033674/20250123_165837.png?ex=684b5035&is=6849feb5&hm=01ec6f2ba704a88ab235ffe7c5349ee8c6939d9f59a8cb3b763cf64bf893cbc8&" alt="Prologue Image" class="mb-2" height="700" width="780">
+                <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1332428292137160806/MyGif_1737744468694-ezgif.com-cut.gif?ex=684b270c&is=6849d58c&hm=693dbd1dc5d50ca24bbe0e6526d5680d83b45376ba44fdff1332e63f42f22457&" alt="Prologue Image" class="mb-2" height="700" width="780">
+               
+                </div>
+            </div>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-4 py-4 border-t border-gray-300">
+        <div class="container mx-auto px-4 text-center text-sm text-gray-600">
+            <p>StreetRacer.Net didukung oleh komunitas. <a href="#" class="">Copyright 2025</a>.</p>
+            <p class="mt-2">
+                <a href="#" class="wiki-link">Tentang StreetRacer.NET</a> | 
+                <a href="#" class="wiki-link">Kebijakan Privasi</a> | 
+                <a href="#" class="wiki-link">Syarat Penggunaan</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

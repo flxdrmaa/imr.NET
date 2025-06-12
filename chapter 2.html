@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Selamat Datang di StreetRacer.NET</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', 'Linux Libertine', 'Georgia', serif;
+            line-height: 1.65;
+            color: #202122;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        #searchInput {
+            padding-left: 12px;
+            border: 1px solid #a2a9b1;
+            border-radius: 2px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .wiki-link {
+            color: #0645AD;
+        }
+        .wiki-link:hover {
+            text-decoration: underline;
+        }
+        .featured-box, .collaboration-box {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        .featured-box img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsif Sidebar */
+        @media (max-width: 768px) {
+            aside {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .flex {
+                flex-direction: column;
+            }
+            main {
+                width: 100%;
+            }
+            #searchInput {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+            .featured-box .flex {
+                flex-direction: column;
+            }
+            .featured-box img {
+                margin-bottom: 1em;
+            }
+        }
+        @media (min-width: 769px) {
+            aside {
+                width: 200px;
+            }
+            main {
+                flex: 1;
+            }
+            .featured-box .flex {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-300">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between flex-wrap">
+            <!-- Logo -->
+            <div class="flex items-center mb-2 sm:mb-0">
+                <img src="https://cdn.discordapp.com/attachments/1332171391687987203/1332172034188382219/20250123_175714.jpg?ex=684ae123&is=68498fa3&hm=ed2cfe97f3d30459b1428b49dc277ace8f5943b80860dc4e123d46b2f3362454&" alt="Wiki Logo" class="h-10">
+                <div class="ml-2">
+                    <h1 class="text-lg font-semibold">StreetRacer.NET</h1>
+                    <p class="text-sm text-gray-600">Invicible Midnight Racer</p>
+                </div>
+            </div>
+            <!-- Search Bar -->
+            <div class="w-full sm:w-1/3 mb-2 sm:mb-0">
+                <input id="searchInput" type="text" placeholder="Cari" class="w-full p-2 text-sm">
+            </div>
+            <!-- Social Links -->
+            <div class="text-sm w-full sm:w-auto">
+                <a href="https://www.tiktok.com/@flxdrmaa?is_from_webapp=1&sender_device=pc" class="wiki-link mr-2">Ikuti Invicible Midnight Racer di TikTok</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-4 flex flex-wrap">
+        <!-- Sidebar -->
+        <aside class="w-48 pr-4">
+            <nav class="bg-white p-3 border border-gray-300 text-sm">
+                <ul class="space-y-1">
+                    <li><a href="#" class="">MAIN</a></li>
+                    <li><a href="Index.html" class="wiki-link">Prologue</a></li>
+                    <hr class="my-2 border-gray-300">
+                    <li><a href="chapter 1.html" class="wiki-link">Chapter 1</a></li>
+                    <li><a href="chapter 2.html" class="wiki-link">Chapter 2</a></li>
+                    <li><a href="chapter 3.html" class="wiki-link">Chapter 3</a></li>
+                    <li><a href="screens roleplay.html" class="wiki-link">Screens Roleplay</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="flex-1 bg-white p-6 border border-gray-300">
+            <h1 class="text-2xl font-bold mb-2">Selamat Datang di StreetRacer.NET</h1>
+            <p class="text-sm mb-4">Selamat datang di StreetRacer.NET, sebuah website yang mengunggah konten tentang dunia balap jalanan, khususnya Club yang berjulukan <em>Invicible Midnight Racer</em>. Temukan informasi, dan pembaruan menarik di sini.</p>
+
+            <!-- Featured Article: Prologue -->
+            <div class="featured-box">
+                <h1 class="text-xl font-semibold mb-2">Chapter 2 : Its Us</h1>
+                <div class="block">
+                    <div>
+                      <h3 class="text-base">Setelah berdirinya Invicible Midnight Racer, sebuah klub mobil yang didirikan oleh 3 sahabat bernama Guerro Geronimo A.K.A Gerry, Bastiano Delucca A.K.A Smokey, dan Jose William A.K.A Kaze. Ketiganya adalah orang-orang yang berhasil mendirikan sebuah klub mobil di Los Santos yang berkembang pesat. Gerry yang merupakan presiden klub ini tidak menyangka bahwa anggota klub mobil mereka saat ini cukup banyak. Setiap hari, setiap malam mereka melakukan kegiatan-kegiatan yang sangat menyenangkan seperti sideshow, drag race, sprint race, dan drifting.</h3>
+                      <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1331928906978033674/20250123_165837.png?ex=684b5035&is=6849feb5&hm=01ec6f2ba704a88ab235ffe7c5349ee8c6939d9f59a8cb3b763cf64bf893cbc8&" alt="Prologue Image" class="mb-2" height="700" width="780">
+                      <br>
+                      <h1 class="text-xl font-semibold mb-2">World Of The Street Racer</h1>
+                      <h3 class="text-base">Seiring berjalannya waktu mereka mengalami sedikit kendala dalam perekonomian karena sebagian besar dari mereka adalah anak muda yang merantau dari kampung halaman. Saat mereka mengalami kendala dalam perekonomian, Smokey dan Kaze yang sedang melamun di halaman belakang rumah tiba-tiba didatangi oleh Gerry yang mengajak mereka pergi ke suatu tempat. Gerry mengajak Smokey dan Kaze untuk pergi ke Las Colinas, ternyata Gerry telah membangun sebuah garasi atau bengkel yang bisa dijadikan pintu gerbang untuk berbisnis.</h3>
+                      <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1359376143857483816/samp_01_02_2025_23_16_24-1.png?ex=684af870&is=6849a6f0&hm=b152b0c27a977ccf57f44e5c8239583d0e2e1ff591573256a573eb53a7d53747&" alt="Prologue Image" class="mb-2" height="700" width="780">
+                      <br>
+                      <h3 class="text-base">Sayangnya Smokey dan Kaze tidak suka tempat itu terlalu dekat dengan pedesaan, karena akan menghambat usaha. Agar hari Gerry tidak terganggu, Smokey dan Kaze mengusulkan untuk membangun bengkel sebagai usaha utama kami di Mulholand, yang merupakan tempat yang cocok untuk mendirikan bengkel karena berada di tengah kota. Gerry setuju dan akhirnya mereka bertiga mulai mendirikan bengkel baru di Mulholand.</h3>
+                     <br>
+                      <h3 class="text-base">Bengkel mereka yang bernama Nocturn Garage sangat diminati oleh beberapa anggota klub Invicible Midnight Racer, dan Gerry pun membuka lowongan pekerjaan untuk menjadi mekanik di klub mobil ini, dan seorang bernama Lucien Schumacher A.K.A Lucy pun maju ke depan. Lucy pun menjalani pelatihan bersama Gerry, tanpa disangka Lucy belajar dengan sangat cepat. Smokey yang ingin menguji Lucy sengaja merusakkan mobilnya pada bagian rem tangan, namun Lucy yang masih pemula di dunia mekanik dapat menyelesaikan semua masalah yang begitu sulit. Mereka pun akhirnya mulai percaya diri untuk dapat membangun usaha ini menjadi besar.</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1359376238879309934/IMG_20250318_190252.png?ex=684af887&is=6849a707&hm=37dd60e481e35802f7519d9d8c55fa55d7bcf95050e522ebff4f76304bacc5b1&" alt="Prologue Image" class="mb-2" height="700" width="780">
+                      <br>
+                      <h3 class="text-base">Beberapa hari telah berlalu sejak Nocturn Garage berdiri, Gerry dan Smokey berbincang-bincang tentang pembuatan markas kedua bagi klub mobil ini dengan mengumpulkan seluruh anggota klub Invincible Midnight Racer di Nocturn Garage. Setelah seluruh anggota berkumpul, Gerry dan Smokey mengusulkan untuk meminta sumbangan guna membeli tanah yang akan dijadikan markas kedua di kawasan Marina Beach.</h3>
+                    <img src="https://media.discordapp.net/attachments/1359751614134485013/1360813357040664897/Screenshot_167.png?ex=684aecf3&is=68499b73&hm=15bbccf5b89f0c3af5e000b0f0724c6992cfcc1794b10dc349a50254ccb974fe&=&format=webp&quality=lossless&width=1423&height=800" alt="Prologue Image" class="mb-2" height="700" width="780">
+                      <br>
+                      <h3 class="text-base">Dengan berbagai pembenahan yang dilakukan pada Klub Mobil ini, akhirnya mereka memutuskan untuk memperkenalkannya kepada seluruh masyarakat di kota San Andreas untuk mengetahui bahwa Invincible Midnight Racer merupakan yang paling terkenal akan kiprahnya di dunia balap liar. Mereka siap untuk bersaing dengan klub-klub mobil lainnya yang siap untuk menghadapi Invincible Midnight Racer. Keyakinan mereka pun sangat tinggi untuk menjadi klub mobil paling terkenal di dunia balap di kota San Andreas.</h3>
+                    <br>
+                      <h3 class="text-base">Sesuai dengan ambisi mereka, mereka memutuskan untuk memperkenalkan klub mereka yang bernama Underground Society, yang dijuluki Invincible Midnight Racer, karena aktivitas malam gila yang sering mereka lakukan. Setelah persiapan matang, mereka siap untuk mengejutkan kota Los Santos dengan kehadiran mereka.</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1329362149608263680/1359376391493386370/IMG_20250318_190236.png?ex=684af8ab&is=6849a72b&hm=f8d1b8a8625f8583fb5eb1d406c4a68206cc695b455a698c046489f16b2affce&" alt="Prologue Image" class="mb-2" height="700" width="780">
+                    </div> 
+                </div>
+            </div>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-4 py-4 border-t border-gray-300">
+        <div class="container mx-auto px-4 text-center text-sm text-gray-600">
+            <p>StreetRacer.Net didukung oleh komunitas. <a href="#" class="">Copyright 2025</a>.</p>
+            <p class="mt-2">
+                <a href="#" class="wiki-link">Tentang StreetRacer.NET</a> | 
+                <a href="#" class="wiki-link">Kebijakan Privasi</a> | 
+                <a href="#" class="wiki-link">Syarat Penggunaan</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
